@@ -7,8 +7,8 @@ layout: default
 
 ### Create an XMPP/Slack bot
 
-Create a bot to automate checking Jira, deploying etc. See Erik Assum\'s 
-[example XMPP bot](https://github.com/slipset/mybot) and [GitHub\'s almighty Hubot](https://hubot.github.com/).
+Create a bot to automate checking Jira, deploying etc. See Erik Assum's 
+[example XMPP bot](https://github.com/slipset/mybot) and [GitHub's almighty Hubot](https://hubot.github.com/).
 
 ### Use `lein try`
 
