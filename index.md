@@ -5,6 +5,8 @@ layout: default
 
 *(So far unordered and uncategorized.)*
 
+*Please contribute with ideas of your own - [edit on GitHub](https://github.com/jakubholynet/trojan-clojure/blob/gh-pages/index.md) and send a pull request or ping [@HolyJak](http://twitter.com/holyjak) at Twitter. Thank you!*
+
 ### Create an XMPP/Slack bot
 
 Create a bot to automate checking Jira, deploying etc. See Erik Assum's 
