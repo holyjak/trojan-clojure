@@ -28,3 +28,9 @@ I used Incanter to fetch data from a DB via JDBC, transform it, and render vario
 #### Alternative: Use Gorilla REPL
 
 [Gorilla REPL](http://gorilla-repl.org/) gives you an interactive "notebook" in a webpage where you can enter equations, execute Clojure code, render charts and more. See the screencast on its home page for a demonstration.
+
+### Implement a utility app / tool in Clojure (optionally with a Java API)
+
+Implement a tool/utility app that others can use via command-line or an exposed Java/REST/... API without necessarily telling them it uses Clojure at first. Just make sure that you won't get fired for doing it in an unapproved language.
+
+F.ex. I created [clj_analytics_mongodiffer](https://github.com/jakubholynet/clj_analytics_mongodiffer) mostly in my free time (so I could not be blamed for wasting the employer's money) to ease the operations task of verifying that our staging and production Mongo DBs had approximately the same data.
