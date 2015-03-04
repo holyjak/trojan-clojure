@@ -21,6 +21,20 @@ Create a bot to automate checking Jira, deploying etc. See Erik Assum's
     user=> (import '[org.apache.commons.codec.net URLCodec])
     user=> (.encode (URLCodec.) "1-_ _&")
 
+### Use it for benchmarking
+
+    LEIN_JVM_OPTS="-XX:-TieredCompilation" lein try criterium
+    
+    user=> (defn fib [n] (cond (= n 0) 0, (= n 1) 1, (> n 1) (+ (fib (- n 1)) (fib (- n 2)))))
+    user=> (use 'criterium.core)
+    user=> (quick-bench (fib 30))
+    Evaluation count : 12 in 6 samples of 2 calls.
+                 Execution time mean : 91.986998 ms
+        Execution time std-deviation : 3.343854 ms
+       Execution time lower quantile : 88.591998 ms ( 2.5%)
+       Execution time upper quantile : 95.815686 ms (97.5%)
+                       Overhead used : 2.078997 ns
+    
 ### Use Incanter to analyze and visualize data
 
 I used Incanter to fetch data from a DB via JDBC, transform it, and render various charts. Data are more and more important and the ability to play with them is thus increasingly useful.
