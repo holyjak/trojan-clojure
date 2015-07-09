@@ -17,6 +17,7 @@ It may be easier to sneak it C.S. than Clojure:
 * There are "killer combinations" - e.g. C.S. with REPL + Om + core-async (especially w.r.t. Om Next, where the cool and powerful stuff is coming to C.S. before JS).
 * JS + Immutable.js vs. ClojureScript: C.S. is superior as it has not only great immutable data, but also an extremely powerful library for working with the data and things such as core-async. On one project we had JS + React + some libs (no immutable data) and the app had 300kB (Omniscient + Immutable.js would add 100kB to it and still fall short of C.S.). On another we had ClojureScript + React + Om (much superior to plan React) + core-async and a few libs - and it too had only 300kB while being much more powerful.
 * Tooling makes development very productive - see e.g. [Bruce Hauman - Developing ClojureScript With Figwheel](https://www.youtube.com/watch?v=j-kj2qwJa_E) (4/2015)
+* Jon Pither: [Why ClojureScript Matters - The case for adding ClojureScript to your project](http://blog.juxt.pro/posts/why-clojurescript-matters.html) (6/2015) - no FE x BE split, powerful, exciting future
 
 ## Clojure
 
