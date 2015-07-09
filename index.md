@@ -7,6 +7,19 @@ layout: default
 
 *Please contribute with ideas of your own - [edit on GitHub](https://github.com/jakubholynet/trojan-clojure/blob/gh-pages/index.md) and send a pull request or ping [@HolyJak](http://twitter.com/holyjak) at Twitter. Thank you!*
 
+# Ideas
+
+## ClojureScript
+
+It may be easier to sneak it C.S. than Clojure:
+
+* While backend is typically regarding as very important and tightly controlled, there is much more freedom in choosing your frontend tools and people are used to FE tooling changing very rapidly.
+* There are "killer combinations" - e.g. C.S. with REPL + Om + core-async (especially w.r.t. Om Next, where the cool and powerful stuff is coming to C.S. before JS).
+* JS + Immutable.js vs. ClojureScript: C.S. is superior as it has not only great immutable data, but also an extremely powerful library for working with the data and things such as core-async. On one project we had JS + React + some libs (no immutable data) and the app had 300kB (Omniscient + Immutable.js would add 100kB to it and still fall short of C.S.). On another we had ClojureScript + React + Om (much superior to plan React) + core-async and a few libs - and it too had only 300kB while being much more powerful.
+* Tooling makes development very productive - see e.g. [Bruce Hauman - Developing ClojureScript With Figwheel](https://www.youtube.com/watch?v=j-kj2qwJa_E) (4/2015)
+
+## Clojure
+
 ### Create an XMPP/Slack bot
 
 Create a bot to automate checking Jira, deploying etc. See Erik Assum's 
