@@ -7,6 +7,10 @@ layout: default
 
 *Please contribute with ideas of your own - [edit on GitHub](https://github.com/jakubholynet/trojan-clojure/blob/gh-pages/index.md) and send a pull request or ping [@HolyJak](http://twitter.com/holyjak) at Twitter. Thank you!*
 
+# Resources
+
+* [LispCast: Convince your boss to use Clojure](http://www.lispcast.com/convince-your-boss-to-use-clojure) (9/2014)
+
 # Ideas
 
 ## ClojureScript
