@@ -13,7 +13,7 @@ layout: default
 
 # Introducing Clojure[Script]
 
-As mikethompson described nicely at the Clojurians Slack channel (general, 2015-07-12 3.30am):
+As [mikethompson described](http://clojurians-log.mantike.pro/general/2015-07-12.html) nicely at the Clojurians Slack channel (general, 2015-07-12 3.30am):
 
 * its all about motivation
 * people are motivated by vitamins (being better) and pain killers (stopping something from hurting)
