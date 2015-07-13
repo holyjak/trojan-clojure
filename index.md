@@ -11,6 +11,21 @@ layout: default
 
 * [LispCast: Convince your boss to use Clojure](http://www.lispcast.com/convince-your-boss-to-use-clojure) (9/2014)
 
+# Introducing Clojure[Script]
+
+As mikethompson described nicely at the Clojurians Slack channel (general, 2015-07-12 3.30am):
+
+* its all about motivation
+* people are motivated by vitamins (being better) and pain killers (stopping something from hurting)
+* so the "story" told around Clojure / ClojureScript has to clearly explain what problems it solves and/or what "new and compelling powers it delivers".
+*  "innovators" or "early adopters" motivate themselves.  The early majority require better arguments be put, and better explanations be made. They also don't want to have to struggle. They want it easy.
+
+Next point, once you get someone interested in learning (ie. they are motivated):
+
+* they have to "get going" fast.  In the shortest amount of time, they need to be writing code and see results.
+* they have to get some early wins. Their program does what it is supposed to.
+* they need it on a platter, initially
+
 # Ideas
 
 ## ClojureScript
